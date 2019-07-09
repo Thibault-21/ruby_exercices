@@ -9,6 +9,3 @@ k.times do |i|
     puts ""
 end
 
-# Construis un programme exo_20.rb qui va demander à l'utilisateur un nombre entre 
-# 1 et 25 et qui va sortir une pyramide à descendre d' autant d'étages que ce nombre. 
-# Voici un exemple :
