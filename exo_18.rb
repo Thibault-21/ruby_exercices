@@ -3,8 +3,13 @@ nom ="dupont"
 tab_email = Array.new
 
 50.times do |i| 
-    tab_email << prenom + "." + nom + (i+1).to_s + "@email.fr"
-
+    
+    if i<9 
+        tab_email << prenom + "." + nom + "0" + (i+1).to_s + "@email.fr"
+    else 
+        tab_email << prenom + "." + nom + (i+1).to_s + "@email.fr"     
+    end
+        
 end
     puts tab_email
 
