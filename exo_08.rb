@@ -1,4 +1,4 @@
-puts "Hello user, what's your user-name ?"
+# puts "Hello user, what's your user-name ?"
 
 class User 
     attr_accessor :name,
