@@ -1,10 +1,10 @@
-# puts "Hello user, what's your user-name ?"
 
-class User 
+
+class Utilisateurs 
     attr_accessor :name,
 end
 
-my_user = User.new
+my_user = Utilisateurs.new
 my_user.name = "bob"
 puts my_user.name 
 # puts "My name is " + "" + user.first_name
