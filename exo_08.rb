@@ -1,3 +1,5 @@
+puts "Hello user what's your name ?"
+
 class User 
     attr_accessor :first_name, :last_name
 end
