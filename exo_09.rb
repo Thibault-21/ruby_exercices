@@ -3,4 +3,4 @@ first_name = gets.chomp
 puts "Hi #{first_name}, what is your last name ?"
 last_name = gets.chomp
 
-puts "Hi #{first_name, last-name}, welcome back!"
+puts "Hi #{first_name} #{last_name}, welcome back!"
