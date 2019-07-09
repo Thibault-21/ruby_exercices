@@ -1,8 +1,4 @@
-class Utilisateurs 
-    attr_accessor :prenom,
-end
+user_name = gets.chomp
+puts "Hello there, whats your " + user_name + "? "
 
-mon_utilisateur = Utilisateurs.new
-mon_utilisateur.prenom = "bob"
-puts mon_utilisateur.prenom 
-mon_utilisateur = "bob"
+
